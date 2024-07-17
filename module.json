@@ -1,0 +1,128 @@
+{
+  "id": "zov-drakonego-kamnya",
+  "title": "Зов Драконьего камня - Приключение",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "description": "Приключение, рассчитанное на игроков 4-10 уровня, где группа приключенцев попадает в ситуацию, когда драконы в мире всполошились, и никто не знает почему. Именно это им и придется выяснить.",
+  "authors": [
+    {
+      "name": "p4vl0",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Зов Драконьего камня - Приключение",
+      "sorting": "a",
+      "color": "#750800",
+      "folders": [
+        {
+          "name": "Импорт приключения",
+          "sorting": "a",
+          "color": "#9c9c00",
+          "packs": [
+            "zov-drakonego-kamnya"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Персонажи мастера",
+          "sorting": "a",
+          "color": "#004b9c",
+          "packs": [
+            "personazhi"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Карты для приключения",
+          "sorting": "a",
+          "color": "#009c68",
+          "packs": [
+            "karty"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Предметы из приключения",
+          "sorting": "a",
+          "color": "#009c68",
+          "packs": [
+            "predmety"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Журналы и информация",
+          "sorting": "a",
+          "color": "#009c68",
+          "packs": [
+            "zhurnaly"
+          ],
+          "folders": []
+        }
+      ],
+      "packs": []
+    }
+  ],
+  "packs": [
+    {
+      "name": "zov-drakonego-kamnya",
+      "label": "Зов Драконьего камня - Импорт приключения",
+      "path": "packs/zov-drakonego-kamnya",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "personazhi",
+      "label": "Персонажи",
+      "path": "packs/personazhi",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "karty",
+      "label": "Карты",
+      "path": "packs/karty",
+      "type": "Scene",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "predmety",
+      "label": "Предметы",
+      "path": "packs/predmety",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "zhurnaly",
+      "label": "Журналы",
+      "path": "packs/zhurnaly",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ]
+}
